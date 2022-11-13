@@ -1,0 +1,29 @@
+@mixin font($b: 500, $size: 14px) {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: $b;
+    font-size: $size;
+  }
+@mixin bbutton {
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #0F1B4C;
+    border-radius: 12px;
+}
+
+@mixin title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #000339;
+}
+
+@mixin buttontitle {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
